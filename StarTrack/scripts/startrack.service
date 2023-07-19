@@ -1,0 +1,8 @@
+[Unit]
+Description=Daemon to start/restart StarTrack application at bootup
+[Service]
+ExecStart=/usr/local/bin/StarTrack
+ExecStop=/bin/systemctl kill StarTrack
+Type=single
+[Install]
+WantedBy=multi-user.target

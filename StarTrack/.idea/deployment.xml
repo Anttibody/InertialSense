@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="StarTrack (Pi4b) (8c4d037c-ce44-4fed-9862-2d7bb14eaf3d)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/startrack/StarTrack" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-weerover" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack-id" />
+            <excludedPath local="true" path="$PROJECT_DIR$/logs" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="StarTrack-IS (Pi4b) (62728cea-a91b-4cba-9305-ee02674dc62d)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/startrack/StarTrack" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-weerover" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack-id" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="Ubuntu23.04 (Pi4b) (4214aa8a-d534-41ac-a119-7ad5128a1efe)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/StarTrack" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-ubuntu23.04" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-weerover" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack-id" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="WeeRover (Pi4b) (ae3b6298-5c96-4804-87d3-de935fe126ae)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/luna/StarTrack" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-weerover" />
+            <excludedPath local="true" path="$PROJECT_DIR$/debug-build-startrack" />
+            <excludedPath local="true" path="$PROJECT_DIR$/logs" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

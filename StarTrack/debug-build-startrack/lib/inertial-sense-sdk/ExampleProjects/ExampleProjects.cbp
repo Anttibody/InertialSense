@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ExampleProjects"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\inertial-sense-sdk\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Ascii\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Bootloader\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Communications\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Logger\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\LogReader\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\NTRIP_rover\;CMake Files\lib\inertial-sense-sdk\cltool\;CMake Files\lib\pigpio\;CMake Files\lib\pigpio\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\;CMake Files\..\..\..\usr\share\;CMake Files\..\..\..\usr\share\eigen3\;CMake Files\..\..\..\usr\share\eigen3\cmake\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISAsciiExample">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/ISAsciiExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 ISAsciiExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISAsciiExample/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/ISAsciiExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 ISAsciiExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISBootloaderExample">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/ISBootloaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 ISBootloaderExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISBootloaderExample/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/ISBootloaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 ISBootloaderExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISCommunicationsExample">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/ISCommunicationsExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 ISCommunicationsExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISCommunicationsExample/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/ISCommunicationsExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 ISCommunicationsExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLoggerExample">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/ISLoggerExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 ISLoggerExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLoggerExample/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/ISLoggerExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 ISLoggerExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLogReaderExample">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/ISLogReaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 ISLogReaderExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLogReaderExample/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/ISLogReaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 ISLogReaderExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISNtripRoverExample">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/ISNtripRoverExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 ISNtripRoverExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISNtripRoverExample/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/ISNtripRoverExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/startrack/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 ISNtripRoverExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/ISAsciiExample.c">
+			<Option target="ISAsciiExample"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/ISBootloaderExample.cpp">
+			<Option target="ISBootloaderExample"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Communications/ISCommunicationsExample.c">
+			<Option target="ISCommunicationsExample"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/ISLogReaderExample.cpp">
+			<Option target="ISLogReaderExample"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Logger/ISLoggerExample.cpp">
+			<Option target="ISLoggerExample"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/ISNtripRoverExample.cpp">
+			<Option target="ISNtripRoverExample"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Ascii\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Bootloader\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Communications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Communications\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Logger\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\LogReader\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\NTRIP_rover\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/cltool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\cltool\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\pigpio\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/cmake/FindRT.cmake">
+			<Option virtualFolder="CMake Files\lib\pigpio\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/cmake/setup.py.in">
+			<Option virtualFolder="CMake Files\lib\pigpio\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

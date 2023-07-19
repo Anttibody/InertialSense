@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/pigpiod.dir/pigpiod.c.o -o pigpiod  -Wl,-rpath,/home/startrack/StarTrack/debug-build-startrack/lib/pigpio: libpigpio.so -Wl,-Bstatic -lrt -Wl,-Bdynamic 

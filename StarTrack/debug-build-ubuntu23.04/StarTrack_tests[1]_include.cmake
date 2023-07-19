@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/StarTrack/debug-build-ubuntu23.04/StarTrack_tests[1]_tests.cmake")
+  include("/home/ubuntu/StarTrack/debug-build-ubuntu23.04/StarTrack_tests[1]_tests.cmake")
+else()
+  add_test(StarTrack_tests_NOT_BUILT StarTrack_tests_NOT_BUILT)
+endif()

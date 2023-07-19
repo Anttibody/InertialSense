@@ -1,0 +1,12 @@
+[submodule "lib/pigpio"]
+	path = lib/pigpio
+	url = https://github.com/joan2937/pigpio.git
+[submodule "lib/inertial-sense-sdk"]
+	path = lib/inertial-sense-sdk
+	url = git@github.com:inertialsense/inertial-sense-sdk.git
+[submodule "lib/fmt"]
+	path = lib/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "lib/spdlog"]
+	path = lib/spdlog
+	url = https://github.com/gabime/spdlog.git

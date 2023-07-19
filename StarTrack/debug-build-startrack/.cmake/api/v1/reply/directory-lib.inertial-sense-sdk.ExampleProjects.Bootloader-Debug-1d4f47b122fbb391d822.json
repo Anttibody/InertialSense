@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lib/inertial-sense-sdk/ExampleProjects/Bootloader",
+		"source" : "lib/inertial-sense-sdk/ExampleProjects/Bootloader"
+	}
+}

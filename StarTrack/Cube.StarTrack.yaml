@@ -1,0 +1,40 @@
+---
+gpio_host: localhost          # don't modify this (unless you know why) - this can allow for remote debugging on a PC, when configured correctly.
+log_dir: logs
+log_level: info
+
+indicate_out_of_order: true   # blinks a green/red LED depending on whether the most recent sampled point is in/out of order.
+allow_out_of_order: false     # allows "passing" of the completed sequence if all points are visited, but out of order.
+
+imx_offset: [0.0, 0.0, 0.033]  # pi-4b wrench offset (no socket)
+
+calibration_points:
+  - [-1.798019522243272e6, -4.536312368985481e6, 4.095677423413508e6]
+  - [-1.798019743950901e6, -4.536312321795086e6, 4.095677267588068e6]
+  - [-1.798019558614969e6, -4.536312481261311e6, 4.095677183419921e6]
+
+sequence_points:
+  - [0.16, 0.2489, 0.0]
+  - [0.16, 0.0711, 0.0]
+  - [0.2489, 0.16, 0.0]
+  - [0.0711, 0.16, 0.0]
+  - [0.222738, 0.222738, 0.0]
+  - [0.097262, 0.097262, 0.0]
+  - [0.222738, 0.097262, 0.0]
+  - [0.097262, 0.222738, 0.0]
+  - [0.16, 0.0, 0.0711]
+  - [0.16, 0.0, 0.2489]
+  - [0.2489, 0.0, 0.16]
+  - [0.0711, 0.0, 0.16]
+  - [0.222738, 0.0, 0.097262]
+  - [0.097262, 0.0, 0.222738]
+  - [0.222738, 0.0, 0.222738]
+  - [0.097262, 0.0, 0.097262]
+  - [0.0, 0.16, 0.0711]
+  - [0.0, 0.16, 0.2489]
+  - [0.0, 0.0711, 0.16]
+  - [0.0, 0.2489, 0.16]
+  - [0.0, 0.097262, 0.097262]
+  - [0.0, 0.222738, 0.222738]
+  - [0.0, 0.097262, 0.222738]
+  - [0.0, 0.222738, 0.097262]

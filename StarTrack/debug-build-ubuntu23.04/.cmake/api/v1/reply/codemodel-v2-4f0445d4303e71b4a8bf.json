@@ -1,0 +1,506 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e6965c937765becbe959.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-lib.inertial-sense-sdk-Debug-9749d5d981e6f8c490be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/inertial-sense-sdk",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/cltool",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.cltool-Debug-51117f0efce9678afbf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/inertial-sense-sdk/cltool",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects-Debug-1a3ffe201aee8f7252c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects"
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects/Ascii",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects.Ascii-Debug-d9d4158a11ad21887358.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects/Ascii",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects/Bootloader",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects.Bootloader-Debug-1d4f47b122fbb391d822.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 5,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects/Bootloader",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects/Communications",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects.Communications-Debug-8a0cf1c877256e71bbac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 6,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects/Communications",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects/Logger",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects.Logger-Debug-5e269e5b46b8dd2ddd7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 7,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects/Logger",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects/LogReader",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects.LogReader-Debug-f84f90d87cf8b4102653.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 8,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects/LogReader",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover",
+					"jsonFile" : "directory-lib.inertial-sense-sdk.ExampleProjects.NTRIP_rover-Debug-844fa9c25ea8781a2f6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 9,
+					"source" : "lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "lib/pigpio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.pigpio-Debug-d5d8dff68db8952d9fb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "lib/pigpio",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "StarTrack",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "inertial-sense-sdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "cltool",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ExampleProjects",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ISAsciiExample",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ISBootloaderExample",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ISCommunicationsExample",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "ISLoggerExample",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "ISLogReaderExample",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "ISNtripRoverExample",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "pigpio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "ISAsciiExample::@e5ee9486d8e37d1a79db",
+					"jsonFile" : "target-ISAsciiExample-Debug-df3ccf91c9bd8d0f0c2f.json",
+					"name" : "ISAsciiExample",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ISBootloaderExample::@538564367d2fe7d3ebbb",
+					"jsonFile" : "target-ISBootloaderExample-Debug-0ac30bb4e26b3e57b83d.json",
+					"name" : "ISBootloaderExample",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ISCommunicationsExample::@cc5a18159f24c208c78f",
+					"jsonFile" : "target-ISCommunicationsExample-Debug-731b230b72c602c492bb.json",
+					"name" : "ISCommunicationsExample",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ISLogReaderExample::@72450acabe52f3de542d",
+					"jsonFile" : "target-ISLogReaderExample-Debug-09b5a4ac4f3499eb0a90.json",
+					"name" : "ISLogReaderExample",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ISLoggerExample::@db61ad9293ef301395fe",
+					"jsonFile" : "target-ISLoggerExample-Debug-af1b7e347b6201525a7f.json",
+					"name" : "ISLoggerExample",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ISNtripRoverExample::@c4048dfbdadbbba8fc8e",
+					"jsonFile" : "target-ISNtripRoverExample-Debug-6541239c21652e577d1d.json",
+					"name" : "ISNtripRoverExample",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "InertialSense::@7e2f127f72b431a9a4c4",
+					"jsonFile" : "target-InertialSense-Debug-504c243bdc8612710383.json",
+					"name" : "InertialSense",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StarTrack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StarTrack-Debug-6244ccd3a99bbada9e37.json",
+					"name" : "StarTrack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StarTrack_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StarTrack_tests-Debug-bbcce3a96e3757a482d9.json",
+					"name" : "StarTrack_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cltool::@b8fdc271e921a61f6c18",
+					"jsonFile" : "target-cltool-Debug-732ceb3ff4734243a225.json",
+					"name" : "cltool",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pig2vcd::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-pig2vcd-Debug-46235a2229215f8a77d4.json",
+					"name" : "pig2vcd",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pigpio::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-pigpio-Debug-3fb182064823f10bba2e.json",
+					"name" : "pigpio",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pigpiod::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-pigpiod-Debug-964d8552cea3b21136d9.json",
+					"name" : "pigpiod",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pigpiod_if::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-pigpiod_if-Debug-58934a413f664f80bcc0.json",
+					"name" : "pigpiod_if",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pigpiod_if2::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-pigpiod_if2-Debug-12e06a89264ff5b0e988.json",
+					"name" : "pigpiod_if2",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pigs::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-pigs-Debug-3463992e347392afc6bc.json",
+					"name" : "pigs",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "x_pigpio::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-x_pigpio-Debug-3007e66ea1d9f49fb8bc.json",
+					"name" : "x_pigpio",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "x_pigpiod_if::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-x_pigpiod_if-Debug-3bb4cf0c4fe7bf1c28b2.json",
+					"name" : "x_pigpiod_if",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "x_pigpiod_if2::@192c63bfbfa44097b0ad",
+					"jsonFile" : "target-x_pigpiod_if2-Debug-337aadf3005261c5a955.json",
+					"name" : "x_pigpiod_if2",
+					"projectIndex" : 10
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/StarTrack/debug-build-ubuntu23.04",
+		"source" : "/home/ubuntu/StarTrack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

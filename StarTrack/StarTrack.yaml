@@ -1,0 +1,27 @@
+---
+
+# This is the *default* StarTrack configuration that is installed into /etc/StarTrack.yaml, and will be used if NO OTHER CONFIGURATION IS FOUND.
+# This uses the "8x11_Landscape" configuration, to be as simple and straight-forward as possible to demonstrate functionality.  It is recommended
+# that you use another configuration with more appropriate settings whenever possible.
+
+gpio_host: localhost          # don't modify this (unless you know why) - this can allow for remote debugging on a PC, when configured correctly.
+log_dir: /var/log/StarTrack
+log_level: info
+
+indicate_out_of_order: true   # blinks a green/red LED depending on whether the most recent sampled point is in/out of order.
+allow_out_of_order: false     # allows "passing" of the completed sequence if all points are visited, but out of order.
+
+imx_offset: [0.0, 0.0, 0.033]  # pi-4b wrench offset (no socket)
+
+calibration_points:
+  - [-1.798019522243272e6, -4.536312368985481e6, 4.095677423413508e6]
+
+# This sequence uses an 8" x 11" sheet of standard "letter" paper in Landscape orientation
+# The first point should be located in the center of the paper, with each point started in the top-left corner
+# and proceeding counter-clocking (bottom-left, then bottom-right, and finally top-right).
+sequence_points:
+  - [ 0.000,  0.000, 0.0]
+  - [-0.140,  0.110, 0.0]
+  - [-0.140, -0.110, 0.0]
+  - [ 0.140, -0.110, 0.0]
+  - [ 0.140,  0.110, 0.0]

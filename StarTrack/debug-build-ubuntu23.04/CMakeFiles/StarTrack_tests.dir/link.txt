@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/StarTrack_tests.dir/test/StarTrack_tests.cpp.o CMakeFiles/StarTrack_tests.dir/src/StarTrackBase.cpp.o -o StarTrack_tests  /usr/lib/aarch64-linux-gnu/libgtest_main.a -lfmt -lrt -lpthread /usr/lib/aarch64-linux-gnu/libgtest.a 

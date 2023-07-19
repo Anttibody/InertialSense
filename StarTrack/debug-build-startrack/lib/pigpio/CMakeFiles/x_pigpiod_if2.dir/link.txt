@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o -o x_pigpiod_if2  -Wl,-rpath,/home/startrack/StarTrack/debug-build-startrack/lib/pigpio libpigpiod_if2.so -Wl,-Bstatic -lrt -Wl,-Bdynamic 

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pigpio"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\inertial-sense-sdk\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Ascii\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Bootloader\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Communications\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Logger\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\LogReader\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\NTRIP_rover\;CMake Files\lib\inertial-sense-sdk\cltool\;CMake Files\lib\pigpio\;CMake Files\lib\pigpio\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\;CMake Files\..\..\..\usr\share\;CMake Files\..\..\..\usr\share\eigen3\;CMake Files\..\..\..\usr\share\eigen3\cmake\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpio">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/libpigpio.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpio"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpio/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/libpigpio.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpio/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/libpigpiod_if.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/libpigpiod_if.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if2">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/libpigpiod_if2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if2/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/libpigpiod_if2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpio">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/x_pigpio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpio"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpio/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/x_pigpio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpio/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/x_pigpiod_if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/x_pigpiod_if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if2">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/x_pigpiod_if2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if2/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/x_pigpiod_if2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/pigpiod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/pigpiod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigs">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/pigs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigs"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigs/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/pigs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pigs/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pig2vcd">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/pig2vcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pig2vcd"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pig2vcd/fast">
+				<Option output="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/pig2vcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/startrack/StarTrack/debug-build-startrack/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 pig2vcd/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/startrack/StarTrack/debug-build-startrack/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/command.c">
+			<Option target="pigpio"/>
+			<Option target="pigpiod_if"/>
+			<Option target="pigpiod_if2"/>
+			<Option target="pigs"/>
+			<Option target="pig2vcd"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/command.h">
+			<Option target="pigpio"/>
+			<Option target="pigpiod_if"/>
+			<Option target="pigpiod_if2"/>
+			<Option target="pigs"/>
+			<Option target="pig2vcd"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/custom.cext">
+			<Option target="pigpio"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pig2vcd.c">
+			<Option target="pig2vcd"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpio.c">
+			<Option target="pigpio"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpio.h">
+			<Option target="pigpio"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpiod.c">
+			<Option target="pigpiod"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpiod_if.c">
+			<Option target="pigpiod_if"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpiod_if.h">
+			<Option target="pigpiod_if"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpiod_if2.c">
+			<Option target="pigpiod_if2"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigpiod_if2.h">
+			<Option target="pigpiod_if2"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigs.c">
+			<Option target="pigs"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/pigs.h">
+			<Option target="pigs"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/x_pigpio.c">
+			<Option target="x_pigpio"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/x_pigpiod_if.c">
+			<Option target="x_pigpiod_if"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/x_pigpiod_if2.c">
+			<Option target="x_pigpiod_if2"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Ascii\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Bootloader\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Communications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Communications\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Logger\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\LogReader\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\NTRIP_rover\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/inertial-sense-sdk/cltool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\cltool\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\pigpio\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/cmake/FindRT.cmake">
+			<Option virtualFolder="CMake Files\lib\pigpio\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/lib/pigpio/cmake/setup.py.in">
+			<Option virtualFolder="CMake Files\lib\pigpio\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/../../../usr/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/startrack/StarTrack/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

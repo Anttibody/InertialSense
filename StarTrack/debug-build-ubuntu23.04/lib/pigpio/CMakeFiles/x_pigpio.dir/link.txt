@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/x_pigpio.dir/x_pigpio.c.o -o x_pigpio  -Wl,-rpath,/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio libpigpio.so -Wl,-Bstatic -lrt -Wl,-Bdynamic 

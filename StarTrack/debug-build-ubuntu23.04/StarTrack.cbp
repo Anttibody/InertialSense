@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StarTrack"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\inertial-sense-sdk\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Ascii\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Bootloader\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Communications\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\Logger\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\LogReader\;CMake Files\lib\inertial-sense-sdk\ExampleProjects\NTRIP_rover\;CMake Files\lib\inertial-sense-sdk\cltool\;CMake Files\lib\pigpio\;CMake Files\lib\pigpio\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\;CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\;CMake Files\..\..\..\usr\share\;CMake Files\..\..\..\usr\share\eigen3\;CMake Files\..\..\..\usr\share\eigen3\cmake\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StarTrack">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/StarTrack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_SHARED_LIB"/>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add option="-DSPDLOG_FMT_EXTERNAL"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/home/ubuntu/StarTrack/include"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/pigpio"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 StarTrack"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StarTrack/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/StarTrack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_SHARED_LIB"/>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add option="-DSPDLOG_FMT_EXTERNAL"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/home/ubuntu/StarTrack/include"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/pigpio"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 StarTrack/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StarTrack_tests">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/StarTrack_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/StarTrack/include"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/pigpio"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 StarTrack_tests"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StarTrack_tests/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/StarTrack_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/StarTrack/include"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/pigpio"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 StarTrack_tests/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InertialSense">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/libInertialSense.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 InertialSense"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InertialSense/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/libInertialSense.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 InertialSense/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cltool">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/cltool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 cltool"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cltool/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/cltool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 cltool/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/cltool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISAsciiExample">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/ISAsciiExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 ISAsciiExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISAsciiExample/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/ISAsciiExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 ISAsciiExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Ascii/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISBootloaderExample">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/ISBootloaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 ISBootloaderExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISBootloaderExample/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/ISBootloaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 ISBootloaderExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Bootloader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISCommunicationsExample">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/ISCommunicationsExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 ISCommunicationsExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISCommunicationsExample/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/ISCommunicationsExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 ISCommunicationsExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Communications/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLoggerExample">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/ISLoggerExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 ISLoggerExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLoggerExample/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/ISLoggerExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 ISLoggerExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/Logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLogReaderExample">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/ISLogReaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 ISLogReaderExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISLogReaderExample/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/ISLogReaderExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 ISLogReaderExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/LogReader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISNtripRoverExample">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/ISNtripRoverExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 ISNtripRoverExample"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISNtripRoverExample/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/ISNtripRoverExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRTK_EMBEDDED"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/external"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb/libusb"/>
+					<Add directory="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/libusb"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 ISNtripRoverExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpio">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/libpigpio.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpio"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpio/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/libpigpio.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpio/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/libpigpiod_if.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/libpigpiod_if.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if2">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/libpigpiod_if2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod_if2/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/libpigpiod_if2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod_if2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpio">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/x_pigpio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpio"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpio/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/x_pigpio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpio/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/x_pigpiod_if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/x_pigpiod_if" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if2">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/x_pigpiod_if2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x_pigpiod_if2/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/x_pigpiod_if2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 x_pigpiod_if2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/pigpiod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigpiod/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/pigpiod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigpiod/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigs">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/pigs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigs"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pigs/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/pigs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pigs/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pig2vcd">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/pig2vcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pig2vcd"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pig2vcd/fast">
+				<Option output="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/pig2vcd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 pig2vcd/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ubuntu/StarTrack/debug-build-ubuntu23.04/lib/pigpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/ISAsciiExample.c">
+			<Option target="ISAsciiExample"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/ISBootloaderExample.cpp">
+			<Option target="ISBootloaderExample"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Communications/ISCommunicationsExample.c">
+			<Option target="ISCommunicationsExample"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/ISLogReaderExample.cpp">
+			<Option target="ISLogReaderExample"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Logger/ISLoggerExample.cpp">
+			<Option target="ISLoggerExample"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/ISNtripRoverExample.cpp">
+			<Option target="ISNtripRoverExample"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/cltool/main.cpp">
+			<Option target="cltool"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/hw-libs/bootloader/bootloaderShared.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/hw-libs/bootloader/bootloaderShared.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataCSV.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataCSV.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataChunk.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataChunk.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataChunkSorted.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataChunkSorted.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataJSON.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataJSON.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataKML.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DataKML.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLog.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLog.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogCSV.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogCSV.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogJSON.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogJSON.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogKML.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogKML.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogSerial.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogSerial.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogSorted.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/DeviceLogSorted.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderAPP.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderAPP.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderBase.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderBase.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderDFU.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderDFU.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderISB.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderISB.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderSAMBA.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderSAMBA.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderThread.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISBootloaderThread.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISClient.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISClient.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISComm.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISComm.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISDataMappings.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISDataMappings.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISDisplay.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISDisplay.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISEarth.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISEarth.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISFileManager.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISFileManager.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISLogFile.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISLogFile.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISLogStats.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISLogStats.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISLogger.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISLogger.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISMatrix.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISMatrix.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISPose.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISPose.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISSerialPort.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISSerialPort.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISStream.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISStream.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISTcpClient.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISTcpClient.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISTcpServer.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISTcpServer.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISUtilities.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ISUtilities.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/InertialSense.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/InertialSense.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/cltool.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/cltool.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/cltool_main.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/com_manager.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/com_manager.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/convert_ins.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/convert_ins.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/data_sets.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/data_sets.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/filters.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/filters.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ihex.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ihex.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/linked_list.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/linked_list.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/message_stats.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/message_stats.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/protocol_nmea.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/protocol_nmea.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ring_buffer.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/ring_buffer.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/serialPort.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/serialPort.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/serialPortPlatform.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/serialPortPlatform.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/statistics.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/statistics.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/time_conversion.c">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/time_conversion.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/tinystr.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/tinystr.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/tinyxml.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/tinyxml.h">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/tinyxmlerror.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/src/tinyxmlparser.cpp">
+			<Option target="InertialSense"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/command.c">
+			<Option target="pigpio"/>
+			<Option target="pigpiod_if"/>
+			<Option target="pigpiod_if2"/>
+			<Option target="pigs"/>
+			<Option target="pig2vcd"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/command.h">
+			<Option target="pigpio"/>
+			<Option target="pigpiod_if"/>
+			<Option target="pigpiod_if2"/>
+			<Option target="pigs"/>
+			<Option target="pig2vcd"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/custom.cext">
+			<Option target="pigpio"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pig2vcd.c">
+			<Option target="pig2vcd"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpio.c">
+			<Option target="pigpio"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpio.h">
+			<Option target="pigpio"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpiod.c">
+			<Option target="pigpiod"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpiod_if.c">
+			<Option target="pigpiod_if"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpiod_if.h">
+			<Option target="pigpiod_if"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpiod_if2.c">
+			<Option target="pigpiod_if2"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigpiod_if2.h">
+			<Option target="pigpiod_if2"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigs.c">
+			<Option target="pigs"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/pigs.h">
+			<Option target="pigs"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/x_pigpio.c">
+			<Option target="x_pigpio"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/x_pigpiod_if.c">
+			<Option target="x_pigpiod_if"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/x_pigpiod_if2.c">
+			<Option target="x_pigpiod_if2"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/src/Blinky.cpp">
+			<Option target="StarTrack"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/src/StarTrack.cpp">
+			<Option target="StarTrack"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/src/StarTrackBase.cpp">
+			<Option target="StarTrack"/>
+			<Option target="StarTrack_tests"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/src/main.cpp">
+			<Option target="StarTrack"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/test/StarTrack_tests.cpp">
+			<Option target="StarTrack_tests"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Ascii/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Ascii\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Bootloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Bootloader\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Communications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Communications\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/Logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\Logger\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/LogReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\LogReader\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/ExampleProjects/NTRIP_rover/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\ExampleProjects\NTRIP_rover\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/inertial-sense-sdk/cltool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\inertial-sense-sdk\cltool\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\pigpio\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/cmake/FindRT.cmake">
+			<Option virtualFolder="CMake Files\lib\pigpio\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/lib/pigpio/cmake/setup.py.in">
+			<Option virtualFolder="CMake Files\lib\pigpio\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\aarch64-linux-gnu\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/../../../usr/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/StarTrack/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
